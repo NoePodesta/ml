@@ -32,6 +32,11 @@ header {
     input {
       width: 50px;
     }
+    @media (max-width: 300px) {
+      .related-products{
+        max-width: 300px;
+      }
+    }
     .related-products{
       max-width: 450px;
       margin-top: 25px;
@@ -45,6 +50,19 @@ header {
       max-width: 500px;
     }
   }
+}
+
+@media (max-width: 300px) {
+  .related-products{
+    max-width: 300px;
+  }
+  .img-container {
+    img {
+      max-height: 300px;
+      max-width: 300px;
+    }
+  }
+
 }
 
 .new-question {

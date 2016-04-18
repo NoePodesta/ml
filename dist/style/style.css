@@ -148,6 +148,11 @@ header h1 {
 .short-product-detail .info-container input {
   width: 50px;
 }
+@media (max-width: 300px) {
+  .short-product-detail .info-container .related-products {
+    max-width: 300px;
+  }
+}
 .short-product-detail .info-container .related-products {
   max-width: 450px;
   margin-top: 25px;
@@ -159,6 +164,15 @@ header h1 {
 .short-product-detail .img-container img {
   max-height: 500px;
   max-width: 500px;
+}
+@media (max-width: 300px) {
+  .related-products {
+    max-width: 300px;
+  }
+  .img-container img {
+    max-height: 300px;
+    max-width: 300px;
+  }
 }
 .new-question {
   background: #dcf1fa;
